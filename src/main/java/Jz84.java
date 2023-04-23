@@ -7,8 +7,8 @@ class Solution84 {
             if(sum == root.val){
                 res++;
             }
-            dfs(root.left,sum - root.val);
-            dfs(root.right,sum - root.val);
+            dfs(root.left, sum - root.val);
+            dfs(root.right, sum - root.val);
         }
     }
     public int FindPath (TreeNode root, int sum) {
